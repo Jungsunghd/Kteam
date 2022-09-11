@@ -68,29 +68,85 @@ h2,h3,h4,h5,h6{
 	padding-top: 20px;
 	display: inline-block;
 	margin-top: 50px;
+	margin-left: 5px;
 }
 .sns-button-facebook{
 	height: 50px;
 	width: 150px;
-	background-color: rgb(0, 0, 255);
-	font-family: Playfair;
-	font-size: 20px;
+	background-color: rgb(86, 71, 223);
 	display: inline-block;
-	border: solid 1px rgb(0, 0, 255);
+	border: none;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	color: aliceblue;
+	font-size: 20px;
 }
 
 .sns-button-twt{
 	height: 50px;
 	width: 150px;
 	background-color: rgb(117, 211, 255);
-	font-family: Playfair;
-	font-size: 20px;
 	display: inline-block;
-	border: solid 1px rgb(117, 211, 255);
+	border: none;
 	color: aliceblue;
 	margin-left: 10px;
-	margin-right: 10px;
+	font-size: 20px;
+}
+
+.sns-button-github{
+	height: 50px;
+	width: 150px;
+	background-color: #666;
+	display: inline-block;
+	border: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: aliceblue;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.sns-name{
+	font-family: Playfair;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 5px;
+}
+.email-register-link{
+	font-family: Playfair;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.img--slide{
+	display: flex;
+	margin-top: 50px;
+	flex-direction: row;
+	align-items: space-between ;	
+}
+.img--slide--left{
+	width: 25%;
+}
+.img--slide--right{
+	width: 25%;
+}
+.img--slide--center{
+	height: auto;
+	width: calc(50%+300px);
+	align-items: center;
+}
+.title-content-main{
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+}
+.main-content-box{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.main-content-box-child{
+	text-align: justify ;
+	margin-top: 50px;
+	width: 30%;
 }
